@@ -11,5 +11,8 @@ jogo = int(input('Qual jogo?'))
 
 if jogo == 1:
     print('Jogando Forca')
+    forca.jogar()
+
 else:
     print('Jogando Adivinhação')
+    jogo_da_adivinhacao_pt6_niveis_e_pontos.jogar()
