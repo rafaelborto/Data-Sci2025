@@ -6,4 +6,4 @@ print('É alfabético?', var1.isalpha())
 print('É alfanumérico?', var1.isalnum())
 print('Está tudo em maiúsculas?', var1.isupper())
 print('Está tudo em minúsculas?', var1.islower())
-print(f'APENAS a primeira letra maiúscula? {var1.istitle()}.') #RETORNA TRUE APENAS SE A PRIMEIRA LETRA FOR MAIÚSCULA
+print(f'APENAS a primeira letra maiúscula? {var1.istitle()}.') #RETORNA TRUE APENAS SE A PRIMEIRA LETRA DE CADA PALAVRA FOR MAIÚSCULA
