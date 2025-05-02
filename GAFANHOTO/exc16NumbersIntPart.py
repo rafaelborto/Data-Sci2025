@@ -8,3 +8,6 @@ import math
 n2 = float(input("Digite um número real: "))
 int_part2 = math.trunc(n2) # Obtém a parte inteira do número
 print(f"A parte inteira de {n2} é {int_part2}. (UTILIZANDO MATH.TRUNC).")
+print(f'A parte inteira de {n2} é {math.trunc(n2)}. (UTILIZANDO MATH.TRUNC).')
+# O math.trunc() retorna a parte inteira de um número, descartando a parte decimal.
+
